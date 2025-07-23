@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Virtual Store",
+    "name": "虛擬門市", // Virtual Store
     "slug": "virtual-store",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -16,7 +16,8 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.unipipc.virtualstore"
     },
     "web": {
       "bundler": "metro",
@@ -37,6 +38,12 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "c1aeef47-a456-44be-9bc2-93b699f34537"
+      }
     }
   }
 }
