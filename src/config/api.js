@@ -1,0 +1,1 @@
+export const API_URL = 'https://aidisso.pic.net.tw/api/Member/GetUrl';
