@@ -1,23 +1,24 @@
 {
   "expo": {
-    "name": "虛擬門市",
-    "slug": "virtual-store",
-    "version": "1.0.0",
+    "name": "秋季商品展",
+    "slug": "autumn-trade-show",
+    "version": "1.0.1",
     "orientation": "landscape",
     "icon": "./assets/images/icon.png",
-    "scheme": "virtualstore",
+    "scheme": "autumntradeshow",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true
     },
     "android": {
+      "versionCode": 2,
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.unipipc.virtualstore"
+      "package": "com.unipipc.autumntradeshow"
     },
     "web": {
       "bundler": "metro",
@@ -41,8 +42,9 @@
     "extra": {
       "router": {},
       "eas": {
-        "projectId": "c1aeef47-a456-44be-9bc2-93b699f34537"
+        "projectId": "b7aaa2a8-905f-4768-b11e-84fbb2fa2dc4"
       }
-    }
+    },
+    "owner": "uni-pipc"
   }
 }
