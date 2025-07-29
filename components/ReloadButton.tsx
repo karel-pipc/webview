@@ -18,8 +18,8 @@ const styles = StyleSheet.create({
   button: {
     position: 'absolute',
     bottom: 20,
-    right: 20,
-    backgroundColor: '#00FF7B',
+    right: 30,
+    backgroundColor: '#0DA360',
     padding: 12,
     borderRadius: 30,
     elevation: 5,
@@ -27,7 +27,7 @@ const styles = StyleSheet.create({
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.3,
     shadowRadius: 3,
-    opacity: 0.7,
+    opacity: 0.9,
   },
 });
 
