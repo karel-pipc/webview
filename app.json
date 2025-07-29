@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "虛擬門市", 
+    "name": "虛擬門市",
     "slug": "virtual-store",
     "version": "1.0.0",
     "orientation": "landscape",
-    "icon": "./assets/images/icon-2.png",
+    "icon": "./assets/images/icon.png",
     "scheme": "virtualstore",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -13,7 +13,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/icon-2.png",
+        "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
@@ -29,8 +29,7 @@
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/icon-2.png",
-          "imageWidth": 200,
+          "image": "./assets/images/splash-icon.png",
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
