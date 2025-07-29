@@ -22,7 +22,7 @@ const IndexPage = () => {
   }, []);
 
   const handleRefresh = () => {
-    webViewRef.current?.reload();
+    loadData();
   };
 
   if (loading) {
