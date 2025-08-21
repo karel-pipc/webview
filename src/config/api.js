@@ -1,1 +1,1 @@
-export const API_URL = 'https://aidisso.pic.net.tw/api/Member/GetUrl';
+export const API_URL = 'https://aidioi.pic.net.tw/api/Member/GetUrl';
