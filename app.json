@@ -1,24 +1,24 @@
 {
   "expo": {
-    "name": "秋季商品展",
-    "slug": "autumn-trade-show",
-    "version": "1.0.2",
+    "name": "秋季商品展UAT",
+    "slug": "autumn-trade-show-uat",
+    "version": "1.0.0",
     "orientation": "landscape",
     "icon": "./assets/images/icon.png",
-    "scheme": "autumntradeshow",
+    "scheme": "autumntradeshowuat",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true
     },
     "android": {
-      "versionCode": 3,
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.unipipc.autumntradeshow"
+      "package": "com.unipipc.autumntradeshowuat"
     },
     "web": {
       "bundler": "metro",
@@ -39,12 +39,12 @@
     "experiments": {
       "typedRoutes": true
     },
+    "owner": "uni-pipc",
     "extra": {
       "router": {},
       "eas": {
-        "projectId": "b7aaa2a8-905f-4768-b11e-84fbb2fa2dc4"
+        "projectId": "91678607-cf82-4ed1-ba98-7b5694997739"
       }
-    },
-    "owner": "uni-pipc"
+    }
   }
 }
