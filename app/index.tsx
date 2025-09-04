@@ -41,10 +41,13 @@ const IndexPage = () => {
     );
   }
 
+  const userAgent = 'Mozilla/5.0 (Linux; Android 10; SM-G975F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36';
+
   return (
     <View style={{ flex: 1 }}>
       <WebView
         ref={webViewRef}
+        userAgent={userAgent}
         source={{ uri }}
         originWhitelist={['*']}
         javaScriptEnabled={true}
